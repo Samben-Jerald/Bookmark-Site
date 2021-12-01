@@ -1,0 +1,53 @@
+.feature-container{
+    text-align: center;
+    width: 35%;
+    margin:6rem auto;
+}
+
+.feature-container h1{
+    color:hsl(229, 31%, 21%);
+    padding-bottom: 20px;
+}
+
+.feature-container p{
+    line-height: 1.5;
+    color: hsl(229, 8%, 60%);
+}
+.extra-class{
+ margin-top: 15rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    .feature-container{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .feature-container{
+        width: 55%;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .feature-container{
+        width: 65%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .feature-container{
+        width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .feature-container{
+        width: 85%;
+    }
+    
+}

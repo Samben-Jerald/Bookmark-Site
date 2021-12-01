@@ -1,0 +1,61 @@
+.extension-card-container {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.browserImage {
+  padding-bottom: 15px;
+}
+.extension-Content > h3 {
+  color: hsl(229, 31%, 21%);
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+.extension-Content span {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+.button-extra {
+  margin-right: 0;
+}
+
+.extension-main-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+}
+
+.extensioncard-button {
+  margin-top: 2rem;
+}
+.container_2 {
+  margin-top: 3rem;
+}
+.container_3 {
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .extension-main-container {
+    column-gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .extension-main-container {
+    column-gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .extension-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_2 {
+      margin-top: 6rem;
+  }
+}

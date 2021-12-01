@@ -1,0 +1,57 @@
+.dropdown-container{
+    width:100%;
+}
+.dropdown-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+}
+
+.main-heading{
+    color:hsl(229, 31%, 21%);
+    font-weight: normal;
+}
+.main-heading:hover{
+  color:hsl(0, 94%, 66%);
+}
+.dropdown-content p {
+    color:hsl(229, 8%, 60%);
+    padding-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.dropdown-main-container{
+    width: 40%;
+    margin: auto;
+}
+
+.question-button{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width:1100px) {
+    .dropdown-main-container{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:900px) {
+    .dropdown-main-container{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:750px) {
+    .dropdown-main-container{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .dropdown-main-container{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:450px) {
+    .dropdown-main-container{
+        width: 85%;
+    }
+}

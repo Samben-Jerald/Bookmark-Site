@@ -1,0 +1,90 @@
+.contactus-container {
+  background-color: hsl(231, 69%, 60%);
+  width: 100%;
+  margin-top: 5rem;
+  padding: 6rem;
+}
+
+.contactus-second-container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 auto;
+  align-items: center;
+}
+.contactus-information {
+  display: flex;
+}
+.joined-members-count {
+  color: white;
+  padding-bottom: 3rem;
+}
+.contactus-heading {
+  color: white;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.input-span {
+  margin-right: 15px;
+}
+
+.contact-us {
+  background-color: hsl(0, 94%, 66%);
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 8px 25px;
+  border: 2px solid aliceblue;
+  outline: none;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.contact-us:hover {
+  color: hsl(0, 94%, 66%);
+  background-color: aliceblue;
+  border: 2px solid hsl(0, 94%, 66%);
+}
+
+@media only screen and (max-width: 1100px) {
+  .contactus-second-container {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contactus-second-container {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .contactus-second-container {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contactus-container {
+    padding: 4.5rem;
+  }
+  .contactus-second-container {
+    width: 80%;
+  }
+  .contactus-information {
+    flex-direction: column;
+  }
+  .contact-us-button {
+    margin: 20px 0;
+  }
+  .contact-us {
+    width: 85%;
+    text-align: center;
+    margin-left: 22.5px;
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contactus-second-container {
+    width: 95%;
+  }
+  .contactus-container {
+    padding: 3rem;
+  }
+}

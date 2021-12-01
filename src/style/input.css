@@ -1,0 +1,30 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-left: 20px;
+}
+.input-error {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  font-size: 0.7rem;
+  text-align: left;
+  padding: 6px 10px;
+}
+.email-input {
+  padding: 8px 5px;
+  width: 250px;
+  border:none;
+  outline: none;
+  color: hsl(229, 31%, 21%);
+}
+.email-input:focus {
+  border: solid 1.5px hsl(229, 31%, 21%);
+}
+
+.add-outline {
+  outline: 2px solid hsl(0, 94%, 66%);
+}
+.remove-border:focus {
+  border: none;
+}
